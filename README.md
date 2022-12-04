@@ -3,6 +3,7 @@
 NodeJS CLI program to fetch some digital coins values (which called portfolio ) depending on some parameters such as token type and date.
 Download this [CSV file](https://s3-ap-southeast-1.amazonaws.com/static.propine.com/transactions.csv.zip) which includes the digital tokens data.
 
+![codeExample](https://user-images.githubusercontent.com/59231851/205523139-cd7fb2e5-26d6-41e6-a17e-4c2df754064e.png)
 ## Features
 
 - get the latest portfolio value per token in USD (given no params)
