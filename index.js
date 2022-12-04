@@ -59,7 +59,7 @@ const runProgram = async () => {
                       const date = `${month}/${day}/${year}`;
                       const convertedDate = Date.parse(date);
                       console.log("converted date", convertedDate);
-                      await timeStampAggregate(convertedDate);
+                      await timeStampAggregate(convertedDate / 1000);
                       readline.close();
                       restartProgram();
                     }
@@ -87,7 +87,7 @@ const runProgram = async () => {
                           console.log("converted date", convertedDate);
                           const convertedToken = token.toUpperCase();
                           await timeStampAggregateAndToken(
-                            convertedDate,
+                            convertedDate / 1000,
                             convertedToken
                           );
                           readline.close();

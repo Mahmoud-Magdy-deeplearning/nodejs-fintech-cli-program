@@ -83,7 +83,7 @@ const timeStampAggregate = async (timestamp) => {
     const result = await Portfolio.aggregate([
       {
         $match: {
-          timestamp: { $lte: new Date(timestamp) },
+          timestamp: { $lte: timestamp },
         },
       },
       {
@@ -118,7 +118,7 @@ const timeStampAggregateAndToken = async (timestamp, token) => {
       {
         $match: {
           token: token,
-          timestamp: { $lte: new Date(timestamp) },
+          timestamp: { $lte: timestamp },
         },
       },
       {
