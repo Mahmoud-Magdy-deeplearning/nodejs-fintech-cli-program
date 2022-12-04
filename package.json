@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-fintech-cli-program",
+  "version": "1.0.0",
+  "description": "NodeJS cli program for fetching tokens prices depending on the given params",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "start:dev":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahmoud-Magdy-deeplearning/nodejs-fintech-cli-program.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "MongoDB",
+    "CLI"
+  ],
+  "author": "Mahmoud Magdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mahmoud-Magdy-deeplearning/nodejs-fintech-cli-program/issues"
+  },
+  "homepage": "https://github.com/Mahmoud-Magdy-deeplearning/nodejs-fintech-cli-program#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "colors": "^1.4.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.7.5",
+    "yesno": "^0.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
